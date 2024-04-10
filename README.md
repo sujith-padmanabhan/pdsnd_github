@@ -7,7 +7,7 @@
 pdsnd_github
 
 ### Description
-Usign  numpy and pandas to analyse bike data
+Using  numpy and pandas to analyse bike data
 
 ### Files used
 bikeshare.py
