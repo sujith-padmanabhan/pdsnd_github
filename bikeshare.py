@@ -203,6 +203,7 @@ def display_data(df):
             print(json_row)
 
 def main():
+    print ("Starting bikeshare data analysis")
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
