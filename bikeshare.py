@@ -206,6 +206,7 @@ def display_data(df):
             print(json_row)
 
 def main():
+    print ("Starting bikeshare data analysis")
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
@@ -220,6 +221,8 @@ def main():
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
+    
+    print("Ending bikeshare data analysis")
 
 
 if __name__ == "__main__":
